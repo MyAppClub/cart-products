@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thw.shoppingcart.activities.CartActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/activity_cart_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:id="@+id/activity_cart_label_empty_cart"
+        style="@style/LabelTextStyle"
+        android:layout_below="@id/activity_cart_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/label_empty_cart"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/activity_cart_emptyCartBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_cart_label_empty_cart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/label_add_cart"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/activity_cart_subtotal"
+        style="@style/LabelTextStyle"
+        android:layout_below="@id/activity_cart_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:singleLine="true"
+        android:textColor="@color/cart_subtotal_text_color"
+        android:textSize="18dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/activity_cart_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_cart_subtotal"
+        android:padding="10dp">
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

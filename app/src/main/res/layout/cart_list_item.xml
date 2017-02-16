@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cart_list_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="13dp"
+    android:layout_marginTop="13dp">
+
+    <TextView
+        android:id="@+id/cart_product_name"
+        style="@style/LabelTextStyle"
+        android:layout_alignParentLeft="true"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/cart_product_price"
+        style="@style/LabelTextStyle"
+        android:layout_centerHorizontal="true"
+        android:textSize="14dp" />
+
+    <ImageButton
+        android:id="@+id/cart_delete_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:src="@drawable/ic_remove_shopping_cart_black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/cart_delete_item"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/darker_gray" />
+
+</RelativeLayout>

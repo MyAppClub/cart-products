@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="home_category_spinner_bkgrd">#D0CECE</color>
+    <color name="home_product_list_bkgrd">#C1B1B1</color>
+    <color name="cart_subtotal_text_color">#FB4B4B</color>
+</resources>

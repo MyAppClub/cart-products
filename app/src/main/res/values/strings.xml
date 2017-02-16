@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ShoppingCart</string>
+
+    <string name="label_select_category">Please Select a Category</string>
+    <string name="label_select_product">Please Select a Product:</string>
+    <string name="category_load_error">Something went wrong. Please try again later</string>
+    <string name="home_first_time_load_error">Closing Application. Please try again later</string>
+
+    <string name="static_label_product_name">Product Name: </string>
+    <string name="static_label_product_price">Product Price: </string>
+    <string name="label_product_added">Product added to cart</string>
+    <string name="product_load_error">Something went wrong. Please select another product</string>
+
+    <string name="loading_cart_products">Loading Cart.. Please Wait</string>
+    <string name="activity_cart_title">My Cart</string>
+    <string name="label_empty_cart">Cart is Empty</string>
+    <string name="label_product_cart_delete">Item is removed</string>
+    <string name="label_add_cart">Add to Cart</string>
+    <string name="label_cart_subtotal">Cart Subtotal: </string>
+    <string name="indian_rupee">\u20B9</string>
+
+</resources>

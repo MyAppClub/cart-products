@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/activity_product_detail_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ImageView
+        android:id="@+id/activity_product_detail_product_mage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@null" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/labelproductname"
+            style="@style/LabelTextStyle"
+            android:text="@string/static_label_product_name"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/activity_product_detail_product_name"
+            style="@style/LabelTextStyle"
+            android:layout_toRightOf="@id/labelproductname"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/labelproductprice"
+            style="@style/LabelTextStyle"
+            android:text="@string/static_label_product_price"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/activity_product_detail_product_price"
+            style="@style/LabelTextStyle"
+            android:layout_toRightOf="@id/labelproductprice"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/activity_product_detail_addCartBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/label_add_cart" />
+</LinearLayout>

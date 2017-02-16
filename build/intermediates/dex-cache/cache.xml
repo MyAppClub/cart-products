@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_e62b5cfef5133ebc14e4b0acf605a21810231249.jar" />
+    </item>
+    <item
+        jar="/home/vishnu/.gradle/caches/modules-2/files-2.1/org.greenrobot/greendao-generator/2.2.0/5b915c8048e21a27bd6e061490af62c017a7dcd/greendao-generator-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="05b915c8048e21a27bd6e061490af62c017a7dcd">
+        <dex dex="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/pre-dexed/debug/greendao-generator-2.2.0_f5657c18f02055b1ad4acfac9e54c30dd2636d6d.jar" />
+    </item>
+    <item
+        jar="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_edf268bd22414e54176ddc883fac71891006c584.jar" />
+    </item>
+    <item
+        jar="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_b5488ca5ed77072b6c4409d032d8ef0713c90cf1.jar" />
+    </item>
+    <item
+        jar="/home/vishnu/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_7016bbb201eb96e74f5608d093381649d7e56015.jar" />
+    </item>
+    <item
+        jar="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_fbb926a13a90e10139891eca135cf16620e0cef2.jar" />
+    </item>
+    <item
+        jar="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_baedb27cea75024ce882d0cb9a71817654173cf7.jar" />
+    </item>
+    <item
+        jar="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_cdf4ef016ff96414554145c5755d02847842e2fe.jar" />
+    </item>
+    <item
+        jar="/home/vishnu/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.23/cd143cd8c02a9f838e3cb75a6dfe133750437f6d/freemarker-2.3.23.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cd143cd8c02a9f838e3cb75a6dfe133750437f6d">
+        <dex dex="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/pre-dexed/debug/freemarker-2.3.23_09f80cd59a7d8dafbaa47e3734ff85d6a4532fc4.jar" />
+    </item>
+    <item
+        jar="/home/vishnu/.gradle/caches/modules-2/files-2.1/org.greenrobot/greendao/2.2.0/fc87fa8db9e03b78b453bb079b77ae4942bc5b20/greendao-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fc87fa8db9e03b78b453bb079b77ae4942bc5b20">
+        <dex dex="/home/vishnu/AndroidStudioProjects/E-Cart/app/build/intermediates/pre-dexed/debug/greendao-2.2.0_2ea8b937a42dc6b7c9eaeb232386951ebdad431a.jar" />
+    </item>
+
+</items>
